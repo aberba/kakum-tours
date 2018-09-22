@@ -1,0 +1,9 @@
+@import url("form.css");
+
+
+.booking-login-form {
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px dashed #21B64C;
+}

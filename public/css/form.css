@@ -1,0 +1,48 @@
+.form {
+    box-sizing: border-box;
+}
+
+.form label {
+	margin: 3px;
+	font-weight: bold;
+}
+
+.form input[type=text], .form input[type=email], .form input[type=search],
+.form input[type=url], .form input[type=password], .form textarea {
+	width: 98%;
+	padding: 10px;
+	margin: 3px 3px 20px 3px;
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+
+	-webkit-box-sizing: border-box;
+     -khtml-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+form input[type=text]:focus, .form input[type=email]:focus, .form input[type=search]:focus,
+.form input[type=url]:focus, .form input[type=password]:focus, .form textarea:focus {
+    border: 1px solid dodgerblue;
+}
+
+.form input[type=button], .form button, .button {
+	padding: 5px;
+	margin: 5px 3px;
+	color: #ffffff;
+	font-family: consolas;
+	word-spacing: 0px;
+	background: #EC8732;
+	border: 1px solid #EC8732;
+
+	-webkit-border-radius: 5px;
+	 -khtml-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	    -ms-border-radius: 5px;
+	     -o-border-radius: 5px;
+	        border-radius: 5px;
+
+	box-shadow: 0 0 2px rgba(0,0,0,0.10);
+}

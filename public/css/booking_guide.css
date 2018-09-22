@@ -1,0 +1,20 @@
+.guide-section {
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.guide-section ol.guides {
+    margin: 20px 30px;
+}
+
+.guide-section ol.guides li {
+    margin: 20px 0;
+}
+
+.guide-section ol.guides li figure {
+    margin: 10px 0;
+}
+
+.guide-section ol.guides li figure img {
+    width: 100%;
+}

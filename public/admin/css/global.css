@@ -1,0 +1,392 @@
+@import url("form.css");
+@import url("table.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+     -khtml-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+	background: #eeeeee;
+	font: normal 16px "Source Sans Pro", "Open sans", Arial, helvetica;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing: antialiased;
+}
+
+h1 {
+    margin: 10px 0 5px 0;
+}
+
+h2 {
+    margin: 10px 0 5px 0;
+}
+
+h3 {
+    margin: 10px 0 5px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+input, select th, td {
+	font-size: 1em;
+}
+
+
+/* CLEARFIX
+*****************************************************************/
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+
+/************************************************************
+     GENERAL STYLINGS
+*************************************************************/
+#message {
+	display: block;
+	max-width: 500px;
+	padding: 10px;
+	margin: 10px auto 5px auto;
+	color: #ffffff;
+	text-align: center;
+	background: #ff6600;
+	border-radius: 1px 1px 3px 3px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.10);
+}
+
+.error {
+    color: red;
+}
+.notice {
+    color: #21B64C;
+}
+
+#wrapper {
+	width: 950px;
+	margin: 0px auto;
+	font-size: normal 1.1em "Open sans", Arial, helvetica;
+	border: 1px solid #eeeeee;
+}
+
+
+
+
+/************************************************************
+     HEADER STYLING
+*************************************************************/
+#header {
+	padding: 10px 0;
+	background: #ffffff; /*#006633  21B64C*/
+    box-shadow: 0 0 2px rgba(0,0,0,0.10);
+}
+
+#header figure#logo {
+    display: none;
+	width: 150px;
+	margin: 0 0 0 10px;
+}
+
+#header figure img {
+	width: 100%;
+}
+
+#header nav {
+	display: block;
+	color: #ffffff;
+    background: #21B64C;
+}
+
+#header nav ul {
+	list-style-type: none;
+}
+
+#header nav ul li {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#header nav ul li:first-child {
+	margin-left: 0;
+}
+
+#header nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	font-variant: small-caps;
+	text-align: center;
+	border-left: 1px inset #21B64C;
+}
+
+#header nav ul li:first-child a {
+	border-left: 0;
+}
+
+#header nav ul li:last-child a {
+	border-right: 1px inset #21B64C;
+}
+
+#header nav ul li a:hover {
+	background: #ff6600;
+	transition: background .1s ease;
+}
+
+
+
+/************************************************************
+    CONTENT & ASIDE STYLINGS
+*************************************************************/
+#content, #aside {
+	display: block;
+	float: left;
+	min-height: 500px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.10);
+}
+
+#content a, #aside a {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+#content a:hover, #aside a:hover {
+	text-decoration: underline;
+}
+
+
+/* Content Styling
+************************************************************/
+#content {
+	width: 778px;
+}
+
+#content > section {
+    margin: 10px 0;
+    border: 1px solid #eeeeee;
+}
+
+#content > .form-section form input[type=search] {
+    width: 625px;
+}
+
+
+/* Aside Styling
+************************************************************/
+#aside {
+	width: 150px;
+	margin-left: 20px;
+}
+
+#aside section {
+	margin: 0 0 20px 0;
+}
+
+#aside ul {
+	list-style-type: none;
+	margin: 5px 0;
+}
+
+
+
+
+/************************************************************
+     FOOTER STYLINGS
+*************************************************************/
+#footer {
+	padding: 10px;
+	color: #ffffff;
+	background: #21B64C;
+    box-shadow: 0 0 2px rgba(0,0,0,0.10);
+    clear: both;
+}
+
+
+
+/************************************************************
+     LOGIN PAGE STYLES
+*************************************************************/
+.login-section form {
+    display: block;
+    width: 350px;
+    padding: 20px;
+    margin: 100px auto;
+    background: #ffffff;
+}
+
+.login-section form label, .login-section form input[type=submit] {
+    display: block;
+}
+
+
+
+/************************************************************
+     DASHBOARD PAGE STYLES
+*************************************************************/
+
+
+
+
+/************************************************************
+     ATTRACTIONS PAGE STYLES
+*************************************************************/
+
+.attractions-page .attractions-section .attraction {
+	float: left;
+	width: 240px;
+	padding: 3px;
+	margin: 10px 5px;
+	border-radius: 5px;
+    border: 1px solid #ffffff;
+	box-shadow: 0 0 1px rgba(0,0,0,0.10);
+}
+
+.attractions-page .attractions-section .attraction ul.links {
+	list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+.attractions-page .attractions-section .attraction ul.links li {
+	display: inline-block;
+    margin: 2px 20px 2px 0;
+    vertical-align: middle;
+}
+
+.attractions-page .attractions-section .attraction figure img {
+	width: 100%;
+	border: 1px solid #eeeeee;
+}
+
+
+
+/************************************************************
+    ATTRACTION PREVIEW PAGE STYLES
+*************************************************************/
+.attraction-preview-page figure {
+	margin: 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+.attraction-preview-page figure img {
+	width: 100%;
+}
+
+/************************************************************
+    ATTRACTION EDIT PAGE STYLES
+*************************************************************/
+.attraction-edit-page form label {
+	display: block;
+}
+
+.attraction-edit-page form input[type=text],
+.attraction-edit-page form textarea {
+	width: 100%;
+}
+
+.attraction-edit-page form figure {
+    width: 500px;
+    border: 1px solid #eeeeee;
+}
+
+.attraction-edit-page form figure img {
+    width: 100%;
+}
+
+.attraction-edit-page form input[type=file] {
+    width: 500px;
+}
+
+.attraction-edit-page form input[type=submit] {
+	margin:30px 10px 5px 0;
+}
+
+
+
+
+/************************************************************
+    PACKAGES PAGE STYLES
+*************************************************************/
+
+.packages-page .packages-section .package {
+    float: left;
+	width: 240px;
+	padding: 3px;
+	margin: 10px 5px;
+	border-radius: 5px;
+    border: 1px solid #ffffff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.10);
+}
+
+.packages-page .packages-section .package ul.info {
+    list-style-type: circle;
+    margin: 0 0 0 20px;
+}
+
+.packages-page .packages-section .package ul.info span {
+	font-weight: bold;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.packages-page .packages-section .package ul.links {
+	list-style-type: none;
+    margin: 10px 0 0 0;
+}
+
+.packages-page .packages-section .package ul.links li {
+	display: inline-block;
+	margin: 2px 20px 2px 2px;
+}
+
+.packages-page .packages-section .package figure img {
+	width: 100%;
+	cursor: pointer;
+}
+
+
+
+/*********************************************************************************
+    PACKAGE PREVIEW
+**********************************************************************************/
+.package-preview-page .attraction {
+    display: block;
+    float: left;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.package-preview-page .attraction figure img {
+    width: 100%;
+}

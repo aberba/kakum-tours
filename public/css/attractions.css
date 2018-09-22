@@ -1,0 +1,33 @@
+.attractions-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid #eeeeee;
+}
+
+.attractions-section .attraction {
+    width: 367px;
+    margin: 10px 2%;
+}
+
+.attractions-section .attraction img {
+    width: 100%;
+}
+
+.attractions-section .attraction .price {
+    color: #21B64C;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.attractions-section .attraction .button {
+    float: right;
+    text-transform: uppercase;
+}
+
+.attractions-section .attraction ul {
+    margin-top: 2px;
+}
+.attractions-section .attraction ul li {
+    list-style: none;
+}

@@ -1,0 +1,25 @@
+@import url("table.css");
+
+.attraction-section {
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.attraction-section figure.attraction-image img {
+    width: 100%;
+}
+
+.attraction-section .attraction-details {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #eeeeee;
+}
+
+.attraction-section .attraction-details div {
+    margin: 10px;
+}
+
+.attraction-section .attraction-details table tr th,
+.attraction-section .attraction-details table tr td{
+    padding: 10px 20px;
+}
